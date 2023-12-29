@@ -1,0 +1,27 @@
+
+.row h1{
+    color: white;
+    margin-left: 20px;
+}
+.rowimages{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    overflow-x: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.images{
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    transition: 460ms;
+
+}
+.images:hover{
+    transform: scale(1.06);
+}
+.movie-poster{
+    height: 300px;
+}
